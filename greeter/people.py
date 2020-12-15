@@ -34,14 +34,14 @@ def get_metin_senturk() -> Person:
     )
 
 
-def some_other_person() -> Person:
+def get_Aekyung_Lee() -> Person:
     """
-    Information on instructor. 
+    Information on student. 
     """
     return Person(
-        name='zeynep',
-        lastname='senturk',
-        date_of_birth=date(1963, 8, 8),
-        educational_history='Bilkent University',
-        skills=dict(python='*', sql='**', laufter='*********')
+        name='Aekyung',
+        lastname='Lee',
+        date_of_birth=date(1993, 8, 30),
+        educational_history='University of Texas',
+        skills=dict(python='', sql='', laufter='')
     )
